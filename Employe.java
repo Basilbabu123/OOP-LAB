@@ -25,7 +25,8 @@ public class Employe
 			{
 				System.out.println("Employee found");
 
-	  System.out.println("Employee name is "+ em[i].ename+ " and Employee salary is "+ em[i].esalary);
+	                         System.out.println("Employee name is "+ em[i].ename+ " and Employee salary is " 
+                                 + em[i].esalary);
 				break;
 			}
 			if(i==n-1)
