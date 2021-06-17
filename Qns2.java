@@ -1,5 +1,5 @@
 //Define a class ‘product’ with data members pcode, pname and price. Create 3 objects of the class
-and find the product having the lowest price.
+//and find the product having the lowest price.
 
 import java.util.Scanner;
 class Product
@@ -55,8 +55,7 @@ else
   }
  }
 }
-
-OUTPUT
+/*OUTPUT
 ------
 C:\Program Files\Java\jdk-16.0.1\bin>javac Qns2.java
 
@@ -82,7 +81,7 @@ Enter the third product details:
 Enter the product code:
 3
 Enter the product name:
-BOOK
+ERASER
 Enter the product price:
 2
 
@@ -92,5 +91,5 @@ Enter the product price:
                 ---------------
 
 Product Code3
-Product Name:BOOK
-Product Price:2
+Product Name:ERASER
+Product Price:2 */
