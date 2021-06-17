@@ -1,7 +1,5 @@
-//create class Employe have eno,ename,esalary.read n employ info and search for an employe given eno use concept of
-// array of objects.
 import java.util.Scanner;
-class Employe
+public class Employe
  {
 	int eno,esalary;
 	String ename;
@@ -20,13 +18,14 @@ class Employe
 			em[i].ename=sc.next();
 		}
 		System.out.println("Enter the eno:");
-		int enumb=sc.nextInt();
+		int enoo=sc.nextInt();
 		for(int i=0;i<n;i++)
 		{
-			if(em[i].eno==enumb)
+			if(em[i].eno==enoo)
 			{
 				System.out.println("Employee found");
-                                System.out.println("Employee name is "+ em[i].ename+" and Employee salary is "+ em[i].esalary);
+
+	  System.out.println("Employee name is "+ em[i].ename+ " and Employee salary is "+ em[i].esalary);
 				break;
 			}
 			if(i==n-1)
@@ -39,5 +38,3 @@ class Employe
  }
 
 }
- 
-  
