@@ -40,26 +40,4 @@ class Employe
 
 }
  
-                 OUTPUT:
-
-C:\Program Files\Java\jdk-16.0.1\bin>javac Employe.java
-
-C:\Program Files\Java\jdk-16.0.1\bin>java Employ
-enter the Limit
-3
-Enter te details:
-1
-3000
-basil
-Enter the details:
-2
-4000
-alias
-Enter the details:
-3
-6000
-aju
-Enter the eno:
-2
-Employee found
-Emploee name is alias and Employee salary is 4000
+  
