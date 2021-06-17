@@ -1,5 +1,5 @@
 //create class Employe have eno,ename,esalary.read n employ info and search for an employe given eno use concept of
- array of objects.
+// array of objects.
 import java.util.Scanner;
 class Employe
  {
